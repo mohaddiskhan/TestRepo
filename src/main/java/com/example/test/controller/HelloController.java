@@ -10,4 +10,11 @@ public class HelloController {
     public String greet(){
         return "Hello GitHub";
     }
+
+    @GetMapping("/greetFeature2")
+    public String greetFeature2(){
+        return "Hello from feature2";
+    }
+
+
 }
