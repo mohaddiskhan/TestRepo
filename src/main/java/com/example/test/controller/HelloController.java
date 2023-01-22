@@ -27,5 +27,10 @@ public class HelloController {
         return "Hello from feature2";
     }
 
+    @GetMapping("/test")
+    public String test(){
+        return "test functionality";
+    }
+
 
 }
