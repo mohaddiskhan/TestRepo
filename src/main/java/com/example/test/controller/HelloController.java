@@ -16,4 +16,9 @@ public class HelloController {
         String result=testService.greet();
         return result;
     }
+
+    @GetMapping("/greetingsFeature")
+    public String greetFeature(){
+        return "Greeting from feature branch";
+    }
 }
