@@ -21,4 +21,11 @@ public class HelloController {
     public String greetFeature(){
         return "Greeting from feature branch";
     }
+
+    @GetMapping("/greetFeature2")
+    public String greetFeature2(){
+        return "Hello from feature2";
+    }
+
+
 }
