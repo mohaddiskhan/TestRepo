@@ -32,8 +32,15 @@ public class HelloController {
         return "test functionality";
     }
 
+
     @GetMapping("/testfeature")
-    public String testFeature(){
+    public String testFeature() {
+
+        return "test functionality";
+    }
+    @GetMapping("/testfeature2")
+    public String testFeature2(){
+
         return "test functionality";
     }
 
