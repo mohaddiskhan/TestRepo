@@ -11,4 +11,8 @@ public class TestService {
     public String greeFeature2t() {
         return "Greetings";
     }
+
+    public String greeFeature() {
+        return "Greetings";
+    }
 }
